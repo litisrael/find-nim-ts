@@ -57,6 +57,7 @@ for (let i = 0; i < 50000; i++) {
 const arrSorted = [...arrUnsorted].sort((a, b) => a - b);
 export { listUnsorted, arrUnsorted, arrSorted };
 const valuesOflist = [];
+
 const printValuesList = (head) => {
     let current = head;
     while (current !== null) {
